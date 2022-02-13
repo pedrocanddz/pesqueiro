@@ -1,4 +1,93 @@
 /*========================== INICIO = Banner + descrição ==========================*/
+.banner_eventos {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: 460px;
+    background: linear-gradient(0deg, rgba(17, 2, 2, 0.65), rgba(17, 2, 2, 0.65)),url("/Imagens/Página\ 03\ _Eventos_/bannerEventos.jpg");
+    background-size:cover;
+    background-position: 0% 35%;
+    background-repeat: no-repeat;
+    border-top: 20px solid var(--corVerde);
+    border-bottom: 20px solid var(--corVerde);
+}
+
+.banner_eventos h1 {
+    padding-left: 12%;
+    padding-right: 12%;
+    margin: 0 auto;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-style: var(--tituloBanner);
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.banner_eventos_colorido {
+    color: var(--corLaranja);
+}
+
+.banner_eventos_descricao {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    align-items: center;
+    background-color: var(--corMarromClaro);
+}
+
+.banner_eventos_descricao p {
+    text-align: center;
+    font-size: var(--paragrafo-font-size);
+    margin: 0 auto;
+    color:#FFFFFF;
+}
+
+@media (max-width: 960px) {
+    .banner_eventos {
+        background-position: 0% 45%;
+        height: 325px;
+    }
+
+    .banner_eventos h1 {
+        padding-left: 6%;
+        padding-right: 6%;
+        font-size: var(--tituloBanner-font-size);
+        line-height: 48px;
+        padding-bottom: 8%;
+    }
+
+    .banner_eventos_descricao {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .banner_eventos {
+        background-position: 0% 55%;
+        height: 305px;
+    }
+
+    .banner_eventos h1 {
+        font-size: 30px;
+        line-height: 38px;
+        padding-bottom: 8%;
+    }
+
+    .banner_eventos_descricao {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .banner_eventos_descricao p {
+        font-size: 15px;
+    }
+}
+
 
 /*========================== FIM = Banner + descrição ==========================*/
 
