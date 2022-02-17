@@ -4,9 +4,9 @@
     align-items: center;
     max-width: 100%;
     height: 460px;
-    background: linear-gradient(0deg, rgba(17, 2, 2, 0.65), rgba(17, 2, 2, 0.65)),url("/Imagens/Página\ 03\ _Eventos_/bannerEventos.jpg");
+    background: linear-gradient(0deg, rgba(17, 2, 2, 0.65), rgba(17, 2, 2, 0.65)),url("/Imagens/Página\ 03\ _Eventos_/bannerEventos.jpeg");
     background-size:cover;
-    background-position: 0% 35%;
+    background-position: 0% 50%;
     background-repeat: no-repeat;
     border-top: 20px solid var(--corVerde);
     border-bottom: 20px solid var(--corVerde);
@@ -47,7 +47,7 @@
 
 @media (max-width: 960px) {
     .banner_eventos {
-        background-position: 0% 45%;
+        background-position: 0% 55%;
         height: 325px;
     }
 
@@ -68,7 +68,7 @@
 
 @media (max-width: 720px) {
     .banner_eventos {
-        background-position: 0% 55%;
+        background-position: 0% 65%;
         height: 305px;
     }
 
