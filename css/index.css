@@ -1,14 +1,83 @@
-/* css das setinhas 
+/* css das setinhas e menu dos banners */
 #setinhaEsquerda {
     position: absolute;
-    padding: 20px;
-    box-shadow: 2px -2px 0 1px #FFFFFF;
+    top: 30%;
+    left: 5%;
+    padding: 25px;
+    box-shadow: 2px -2px 0 1px #FFFFFF inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+
+#setinhaDireita {
+    position: absolute;
+    top: 30%;
+    left: 92%;
+    padding: 25px;
+    box-shadow: 2px -2px 0 1px #FFFFFF inset;
     border: solid transparent;
     border-width: 0 0 2px 2px;
     transform: rotate(225deg);
+    z-index: 1;
   }
 
-*/
+.banner_home_menu {
+    display: flex;
+    position: relative;
+    top: -5em;
+    left: 45%;
+    z-index: 1;
+}
+
+.banner_nav_ponto {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+@media (max-width: 960px) {
+    #setinhaEsquerda {
+        top:17%;
+        padding:20px;
+    }
+    #setinhaDireita {
+        top:17%;
+        padding:20px;
+    }
+    .banner_home_menu {
+        left:42%;
+    }
+}
+
+@media (max-width: 720px) {
+    #setinhaEsquerda {
+        top:18%;
+        left:6%;
+        padding:12px;
+    }
+    #setinhaDireita {
+        top:18%;
+        left:88%;
+        padding:12px;
+    }
+    .banner_home_menu {
+        top: -4em;
+        left:36%;
+    }
+    .banner_nav_ponto {
+        width: 17px;
+        height: 17px;
+        margin-left: 18px;
+
+    }
+}
+/* fim css seinhas e menu */
 
 /* container do carrosel de imagens */
 .banner_home_principal {
@@ -18,10 +87,10 @@
 
 .banner_elements {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s ease-in-out;
     transform: translateX(0);
 }
-
+/* Fim do container do carrosel de imagens */
 
 
 /* Inicio do Primeiro slide do banner */
