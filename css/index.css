@@ -1,0 +1,236 @@
+.container-geral{
+    position: absolute;
+    width: 100%;
+    height: 814px;
+    top: 1281px;
+    background: var(--corBranco);
+
+}
+.titulo-container{
+    width: 100%;
+    height: 47px;
+}
+
+.titulo-container h2{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: var(--tituloSecao-font-weight);
+    font-size: var(--tituloSecao-font-size);
+    line-height: 43px;
+    text-align: center;
+    color: var(--corVerde);
+
+}
+
+.container-visita{
+    margin: 0 auto;
+    width: 1057px;
+    height: 814px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.primeiro-andar{
+    margin-top: 62px;
+    display: inline-flex;
+    gap: 0 24.01px;
+    align-self: center;
+}
+
+.segundo-andar{
+    margin-top: 24px;
+    display: inline-flex;
+    gap: 0 24.01px;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+
+.container-icone1, .container-icone2, .container-icone3, .container-icone4, .container-icone5{
+    width: 290.03px;
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.icone1, .icone2, .icone3, .icone4, .icone5{
+    align-self: center;
+    width: 113.32px;
+    height: 113.32px;
+}
+
+.experiencia, .atracoes, .pescaria, .musica, .tranquilidade{
+    width: 292.91px;
+    height: 39.38px;
+    padding-top:21.13px;
+}
+
+.texto-experiencia, .texto-atracoes, .texto-pescaria, .texto-musica, .texto-tranquilidade{
+    width: 290.03px;
+    padding-top: 1.92px;
+}
+.titulo{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: var(--tituloItem-font-weight);
+    font-size: var(--tituloItem-font-size);
+    line-height: 28px;
+    text-align: center;
+    color: var(--corSangue);
+}
+
+.paragrafo{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--paragrafo-font-size);
+    line-height: 21px;
+    text-align: center;
+    color: var(--corPreto);
+}
+
+
+
+
+@media (max-width: 1050px){
+
+.container-geral{
+    height: 749px;
+    top: 1213px;
+}
+
+.titulo-container{
+    height: 37px;
+}
+
+.titulo-container h2{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.container-visita{
+    width: 768px;
+    height: 749px;
+}
+
+.primeiro-andar{
+    margin-top: 72px;
+    gap: 0 26.67px;
+}
+
+.segundo-andar{
+    margin-top: 69.6px;
+    gap: 0 26.67px;
+    margin-bottom: 30px;
+}
+
+.container-icone1, .container-icone2, .container-icone3, .container-icone4, .container-icone5{
+    width: 211.33px;
+    height: 218.41px;
+}
+
+.icone1, .icone2, .icone3, .icone4, .icone5{
+    width: 83px;
+    height: 83px;
+}
+
+.experiencia, .atracoes, .pescaria, .musica, .tranquilidade{
+    width: 213.46px;
+    padding-top:24px;
+}
+
+
+.texto-experiencia, .texto-atracoes, .texto-pescaria, .texto-musica, .texto-tranquilidade{
+    width: 211.33px;
+}
+
+.titulo{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.paragrafo{
+    font-size: 13px;
+    line-height: 15px;
+
+}
+
+
+}
+
+@media (max-width: 768px){
+    .container-geral{
+        height: 526px;
+        top: 727px;
+    }
+
+    .titulo-container{
+        height: 37px;
+    }
+
+    .titulo-container h2{
+        font-size: 18px;
+        line-height: 21px;
+        width: 121.67px;
+        margin: 0 auto;
+    }
+
+    .container-visita{
+        width: 320px;
+        height: 526px;
+    }
+
+    .primeiro-andar{
+        margin-top: 35px;
+        gap: 0 7.94px;
+    }
+
+    .segundo-andar{
+        margin-top: 60px;
+        gap: 0 7.94px;
+        margin-bottom: 30px;
+    }
+
+    .container-icone1, .container-icone2, .container-icone3, .container-icone4, .container-icone5{
+        width: 88.93px;
+        height: 162.4px;
+    }
+
+    .icone1, .icone2, .icone3, .icone4, .icone5{
+        width: 36px;
+        height: 36px;
+    }
+
+    .experiencia, .atracoes, .pescaria, .musica, .tranquilidade{
+        width: 88.93px;
+        padding-top:15px;
+    }
+
+    .experiencia{
+        height: 40px;
+    }
+    .container-icone2 p{
+        padding-top: 13px;
+    }
+
+    .musica, .tranquilidade{
+        height: 25px;
+    }
+    
+    .texto-experiencia, .texto-atracoes, .texto-pescaria, .texto-musica, .texto-tranquilidade{
+        width: 80px;
+    }
+
+    .titulo{
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .paragrafo{
+        font-size: 10px;
+        line-height: 12px;
+    
+    }
+    
+}
