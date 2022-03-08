@@ -1,7 +1,7 @@
 /* css das setinhas e menu dos banners */
 #setinhaEsquerda {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 5%;
     padding: 25px;
     box-shadow: 2px -2px 0 1px #FFFFFF inset;
@@ -13,7 +13,7 @@
 
 #setinhaDireita {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 92%;
     padding: 25px;
     box-shadow: 2px -2px 0 1px #FFFFFF inset;
@@ -43,11 +43,11 @@
 
 @media (max-width: 960px) {
     #setinhaEsquerda {
-        top:17%;
+        top:35%;
         padding:20px;
     }
     #setinhaDireita {
-        top:17%;
+        top:35%;
         padding:20px;
     }
     .banner_home_menu {
@@ -57,24 +57,18 @@
 
 @media (max-width: 720px) {
     #setinhaEsquerda {
-        top:18%;
+        top:35%;
         left:6%;
         padding:12px;
     }
     #setinhaDireita {
-        top:18%;
+        top:35%;
         left:88%;
         padding:12px;
     }
     .banner_home_menu {
         top: -4em;
-        left:36%;
-    }
-    .banner_nav_ponto {
-        width: 17px;
-        height: 17px;
-        margin-left: 18px;
-
+        left: 35%;
     }
 }
 /* fim css seinhas e menu */
@@ -82,6 +76,7 @@
 /* container do carrosel de imagens */
 .banner_home_principal {
     overflow: hidden;
+    position: relative;
 }
 
 
