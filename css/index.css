@@ -5,7 +5,7 @@
     background-color: var(--corSangue);
     height: 306px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: #FEE1C1;
 }
 
@@ -15,18 +15,16 @@
     justify-content: space-evenly;
     font-weight: 400;
     font-size: var(--paragrafo-font-size);
-    width: 422px;
+    /* width: 422px; */
     line-height: 21px;
 }
 .seja_nosso_parceiro h3{
     color: var(--corBranco);
     font-weight: var(--tituloSecao-font-weight);
     font-size: var(--tituloSecao-font-size);
-    margin-bottom: 22px;
-    line-height: 43px;
 }
 .imagem_parceiro{
-    margin-top: 38px;
+    margin-top: 2%;
     width: 229px;
     height: 229px;
     background-image: url("/Imagens/Página 01 _Home_/imagemParceiro.png");
@@ -43,23 +41,23 @@
     color: var(--corVerde);
     font-weight: var(--textoBotao-font-weight);
     font-size: var(--textoBotao-font-size);
-    margin-left: 18px;
-    line-height: 21px;
     padding: 7.44px 32.7px 7.44px 32.7px ;
 }
 @media (max-width: 768px){
+    .container_seja_nosso_parceiro{
+        height: 278px;
+        /* justify-content: space-around; */
+    }
     .seja_nosso_parceiro h3{
         font-size: 30px;
-        line-height: 35.55px;
     }
     .seja_nosso_parceiro{
-        line-height: 15.41px;
         font-size: 13px;
-        width: 308px;
+        /* width: 308px; */
     }
-    .seja_nosso_parceiro .text_seja_nosso_parceiro{
+    /* .seja_nosso_parceiro .text_seja_nosso_parceiro{
         margin-left: 64px;
-    }
+    } */
     .imagem_parceiro{
         width: 211px;
         height: 211px;
@@ -69,14 +67,17 @@
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 498px){
+    .container_seja_nosso_parceiro{
+        height: 229px;
+    }
     .seja_nosso_parceiro{
         font-size: 10px;
         width: 174px;
     }
     .seja_nosso_parceiro h3{
         font-size: 16px;
-        line-height: 19px;
+        /* line-height: 19px; */
     }
     .imagem_parceiro{
         width: 87.92px;
@@ -91,8 +92,8 @@
         width: 77px;
         padding: 7px 8px 7px 8px;
     }
-    .seja_nosso_parceiro .text {
-        margin-left: 54px;        
-    }
+    /* .seja_nosso_parceiro .text {
+        margin-left: 50px;        
+    } */
 }
 /* Fim - Seja nosso parceiro */
