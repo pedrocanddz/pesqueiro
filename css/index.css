@@ -103,3 +103,384 @@
     }
 }
 /* Fim - Seja nosso parceiro */
+
+/* ----------- Início - Home- Descrição + fotos*/
+.desc_fotos_container{
+    width: 100%;
+    height: 766px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-family);
+}
+
+.desc_container{
+    width: 100%;
+    height: 16%;
+}
+.descricao{
+    font-size: var(--paragrafo-font-size);
+    text-align: center;
+    padding: 3% 18%;
+    font-weight: 400;
+}
+.desc_down{
+    width: 100%;
+    height: 85%;
+    background-color: #FEE1C1;
+    ;
+    display: flex;
+    flex-direction: column;
+}
+.desc_down p{
+    padding: 2% 10% 2%;
+    font-weight: 700;
+    color: var(--corSangue);
+    font-size: var(--subtituloLight-font-size);
+    text-align: center;
+}
+.fotos_container{
+    margin-left: 16%;
+    width: 84%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imagem{
+    width: 25%;
+    height: 45%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.imagem1 {
+    background-image: url("../Imagens/Página 01 _Home_/peixe1.jpeg");
+}
+.imagem2 {
+    background-image: url("../Imagens/Página 01 _Home_/peixe2.jpeg");
+}
+.imagem3 {
+    background-image: url("../Imagens/Página 01 _Home_/peixe3.jpeg");
+    background-position: top;
+}
+.imagem4 {
+    background-image: url("../Imagens/Página 01 _Home_/peixe4.jpeg");
+    background-position: top;
+}
+.imagem5 {
+    background-image: url("../Imagens/Página 01 _Home_/peixe5.jpeg");
+}
+.imagem6 {
+    background-image: url("../Imagens/Página 01 _Home_/peixe6.jpeg");
+}
+
+@media  (max-width: 768px){
+    .desc_fotos_container{
+        height: 757px;
+    }
+    .desc_down p{
+        font-size: 18px;
+    }
+    .descricao{
+        font-size: 13px;
+        padding: 5% 15%;
+    }
+}
+@media (max-width : 480px){
+    .descricao{
+        font-size: 10px;
+    }
+
+    .desc_down p{
+        font-size: 12px;
+    }
+    .desc_fotos_container{
+        height: 493px;
+    }
+}
+/* ----------- fim - Home- Descrição + fotos*/
+
+/* css das setinhas e menu dos banners */
+#setinhaEsquerda {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    padding: 25px;
+    box-shadow: 2px -2px 0 1px #FFFFFF inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+
+#setinhaDireita {
+    position: absolute;
+    top: 40%;
+    left: 92%;
+    padding: 25px;
+    box-shadow: 2px -2px 0 1px #FFFFFF inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(225deg);
+    z-index: 1;
+  }
+
+.banner_home_menu {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -5em;
+    z-index: 1;
+}
+
+.banner_nav_ponto {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+@media (max-width: 960px) {
+    #setinhaEsquerda {
+        top:35%;
+        padding:20px;
+    }
+    #setinhaDireita {
+        top:35%;
+        padding:20px;
+    }
+}
+
+@media (max-width: 720px) {
+    #setinhaEsquerda {
+        top:35%;
+        left:6%;
+        padding:12px;
+    }
+    #setinhaDireita {
+        top:35%;
+        left:88%;
+        padding:12px;
+    }
+    .banner_home_menu {
+        top: -4em;
+    }
+}
+/* fim css seinhas e menu */
+
+/* container do carrosel de imagens */
+.banner_home_principal {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.banner_elements {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    transform: translateX(0);
+}
+/* Fim do container do carrosel de imagens */
+
+
+/* Inicio do Primeiro slide do banner */
+.banner_home_primeiro {
+    display: flex;
+    flex-basis: 100%;
+    flex-shrink: 0;
+    align-items: center;
+    max-width: 100%;
+    height: 460px;
+    background: linear-gradient(0deg, rgba(17, 2, 2, 0.65), rgba(17, 2, 2, 0.65)),url("/Imagens/Página 01 _Home_/bannerHome1.jpeg");
+    background-size:cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    border-top: 20px solid var(--corVerde);
+    border-bottom: 20px solid var(--corVerde);
+}
+
+.banner_home_primeiro h1 {
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: 0 auto;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-style: var(--tituloBanner);
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner_home_primeiro_colorido {
+    color: var(--corVerde);
+}
+
+
+
+@media (max-width: 960px) {
+    .banner_home_primeiro {
+        background-position: 0% 55%;
+        height: 325px;
+    }
+
+    .banner_home_primeiro h1 {
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: var(--tituloBanner-font-size);
+        line-height: 48px;
+        padding-bottom: 8%;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .banner_home_primeiro {
+        background-position: 0% 65%;
+        height: 305px;
+    }
+
+    .banner_home_primeiro h1 {
+        font-size: 26px;
+        line-height: 38px;
+        padding-bottom: 8%;
+    }
+}
+/* Fim do Primeiro slide do banner */
+/* Inicio do Segundo slide do banner */
+.banner_home_segundo {
+    display: flex;
+    flex-basis: 100%;
+    flex-shrink: 0;
+    align-items: center;
+    max-width: 100%;
+    height: 460px;
+    background: linear-gradient(0deg, rgba(17, 2, 2, 0.65), rgba(17, 2, 2, 0.65)),url("/Imagens/Página 01 _Home_/bannerHome2.jpg");
+    background-size:cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    border-top: 20px solid var(--corVerde);
+    border-bottom: 20px solid var(--corVerde);
+}
+
+.banner_home_segundo h1 {
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: 0 auto;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-style: var(--tituloBanner);
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner_home_segundo_colorido {
+    color: var(--corLaranja);
+}
+
+
+
+@media (max-width: 960px) {
+    .banner_home_segundo {
+        background-position: 0% 55%;
+        height: 325px;
+    }
+
+    .banner_home_segundo h1 {
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: var(--tituloBanner-font-size);
+        line-height: 48px;
+        padding-bottom: 8%;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .banner_home_segundo {
+        background-position: 0% 65%;
+        height: 305px;
+    }
+
+    .banner_home_segundo h1 {
+        font-size: 26px;
+        line-height: 38px;
+        padding-bottom: 8%;
+    }
+}
+/* Fim do Segundo slide do banner */
+/* Inicio do Terceiro slide do banner */
+.banner_home_terceiro {
+    display: flex;
+    flex-basis: 100%;
+    flex-shrink: 0;
+    align-items: center;
+    max-width: 100%;
+    height: 460px;
+    background: linear-gradient(0deg, rgba(17, 2, 2, 0.65), rgba(17, 2, 2, 0.65)),url("/Imagens/Página 01 _Home_/bannerHome3.jpg");
+    background-size:cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    border-top: 20px solid var(--corVerde);
+    border-bottom: 20px solid var(--corVerde);
+}
+
+.banner_home_terceiro h1 {
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: 0 auto;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-style: var(--tituloBanner);
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner_home_terceiro_colorido {
+    color: var(--corVerde);
+}
+
+
+
+@media (max-width: 960px) {
+    .banner_home_terceiro {
+        background-position: 0% 55%;
+        height: 325px;
+    }
+
+    .banner_home_terceiro h1 {
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: var(--tituloBanner-font-size);
+        line-height: 48px;
+        padding-bottom: 8%;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .banner_home_terceiro {
+        background-position: 0% 65%;
+        height: 305px;
+    }
+
+    .banner_home_terceiro h1 {
+        font-size: 26px;
+        line-height: 38px;
+        padding-bottom: 8%;
+    }
+}
+/* Fim do Terceiro slide do banner */
+
