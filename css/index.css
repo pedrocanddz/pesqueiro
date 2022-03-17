@@ -1,3 +1,108 @@
+/* Início - Seja nosso parceiro */
+.container_seja_nosso_parceiro{
+    font-family: Rubik;
+    width: 100%;
+    background-color: var(--corSangue);
+    height: 306px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #FEE1C1;
+}
+
+.seja_nosso_parceiro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: 400;
+    font-size: var(--paragrafo-font-size);
+    width: 417px;
+    line-height: 21px;
+}
+.seja_nosso_parceiro h3{
+    color: var(--corBranco);
+    font-weight: var(--tituloSecao-font-weight);
+    font-size: var(--tituloSecao-font-size);
+    line-height: 38px;
+}
+.imagem_parceiro{
+    margin-top: 2%;
+    width: 229px;
+    height: 229px;
+    background-image: url("../Imagens/Página 01 _Home_/imagemParceiro.png");
+    background-size: cover;
+}
+
+.contato_parceria { 
+    display: flex;
+    align-items: center       ;
+}
+.contato_parceria div {
+    text-align: center;
+    background-color: var(--corBranco);
+    color: var(--corVerde);
+    font-weight: var(--textoBotao-font-weight);
+    font-size: var(--textoBotao-font-size);
+    padding: 2% 8%;
+}
+.text_seja_nosso_parceiro{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@media (max-width: 768px){
+    .container_seja_nosso_parceiro{
+        height: 278px;
+    }
+    .text_seja_nosso_parceiro{
+        padding-left: 50px;
+    }
+    .seja_nosso_parceiro h3{
+        font-size: 30px;
+        line-height: 35.55px;
+    }
+    .seja_nosso_parceiro{
+        font-size: 13px;
+        line-height: 12px;
+        width: 45%;
+    }
+    .imagem_parceiro{
+        width: 211px;
+        height: 211px;
+    }
+    .contato_parceria{
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 400px){
+    .container_seja_nosso_parceiro{
+        height: 229px;
+    }
+    .text_seja_nosso_parceiro{
+        padding-left: 30px;
+    }
+    .seja_nosso_parceiro{
+        font-size: 10px;
+    }
+    .seja_nosso_parceiro h3{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .imagem_parceiro{
+        width: 87.92px;
+        height: 211px;
+        background-position: center;
+    }
+    .contato_parceria img{
+        width: 31.33px;
+        height: 29.38px;
+    }
+    .contato_parceria div{
+        padding: 1% 2%;
+    }
+}
+/* Fim - Seja nosso parceiro */
 
 /* ----------- Início - Home- Descrição + fotos*/
 .desc_fotos_container{
@@ -378,3 +483,4 @@
     }
 }
 /* Fim do Terceiro slide do banner */
+
