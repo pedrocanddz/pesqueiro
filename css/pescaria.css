@@ -4,10 +4,238 @@
 
 
 /*========================== INICIO = Modalidades  ==========================*/
+.container-modalidade{
+    position: relative;
+    height: 910px;
+    top: 720px;
+    margin: auto;
+    background-color: var(--corBranco);
+    display: flex;
+    flex-direction: column;
+}
 
+.container-titulo-modalidade{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--tituloSecao-font-size);
+    line-height: 43px;
+    color: var(--corSangue);
+}
+.container-conteudo-modalidade{
+    display: flex;
+    justify-content: center;
+}
+.container-pescaesportiva{
+    display: flex;
+    flex-direction: column;
+    margin-right: 85.37px;
+    box-shadow: 1px 1px 14px 2px rgba(0, 0, 0, 0.2);
+}
+.container-pesqueepague{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 14px 2px rgba(0, 0, 0, 0.2);
+}
+.container-pescaesportiva-titulo, .container-pesqueepague-titulo{
+    width: 380.63px;
+    height: 56.53px;
+    background-color: var(--corSangue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--subtituloSecao-font-size);
+    line-height: 36px;
+    color: var(--corBranco);
+}
+
+.container-pescaesportiva-conteudo, .container-pesqueepague-conteudo{
+    width: 380.63px;
+    height: 608.53px;
+    background-color: var(--corBranco);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 8px solid var(--corSangue);
+    align-items: center;
+}
+
+.container-pescaesportiva-conteudo img{
+    width: 259.34px;
+    height: 204.44px;
+    margin-top: 72.8px;
+    margin-bottom: 77.8px;
+}
+
+.container-pesqueepague-conteudo img{
+    width: 286.84px;
+    height: 132.98px;
+    margin-top: 86.3px;
+    margin-bottom: 96.91px;
+}
+
+.container-pescaesportiva-conteudo p, .container-pesqueepague-conteudo p{
+    width: 334.47px;
+    height: 196.91px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--paragrafo-font-size);
+    line-height: 21px;
+    text-align: center;
+}
 /*========================== FIM = Modalidades  ==========================*/
 
 
 /*========================== INICIO = Tanques + Regras + Faixa Venha nos conhecer  ==========================*/
 
 /*========================== FIM = Tanques + Regras + Faixa Venha nos conhecer  ==========================*/
+
+@media (max-width: 1050px){
+.container-modalidade{
+    height: 1097px;
+    top: 584px;
+}
+
+.container-titulo-modalidade{
+    padding-top: 33px;
+    padding-bottom: 26px;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--corSangue);
+}
+.container-conteudo-modalidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pescaesportiva{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 14px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 37.64px;
+    margin-right: 0px;
+}
+
+.container-pescaesportiva-titulo, .container-pesqueepague-titulo{
+    width: 503.24px;
+    height: 53.12px;
+    display: flex;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--corBranco);
+}
+
+.container-pescaesportiva-conteudo{
+    width: 503.24px;
+    height: 393.24px;
+}
+
+.container-pesqueepague-conteudo{
+    width: 503.24px;
+    height: 431.93px;
+}
+
+.container-pescaesportiva-conteudo img{
+    width: 241.69px;
+    height: 190.53px;
+    margin-top: 25.34px;
+    margin-bottom: 25.68px;
+}
+
+.container-pesqueepague-conteudo img{
+    width: 368.51px;
+    height: 170.71px;
+    margin-top: 60.23px;
+    margin-bottom: 42.4px;
+}
+
+.container-pescaesportiva-conteudo p{
+    width: 391.41px;
+    height: 88.53px;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.container-pesqueepague-conteudo p{
+    width: 392.09px;
+    height: 132.47px;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+}
+
+@media (max-width: 768px){
+.container-modalidade{
+    position: relative;
+    height: 981px;
+    top: 353px;
+}
+
+.container-titulo-modalidade{
+    padding-top: 24px;
+    padding-bottom: 23px;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--corSangue);
+}
+
+.container-pescaesportiva{
+    box-shadow: 1px 1px 14px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 35px;
+}
+
+.container-pescaesportiva-titulo, .container-pesqueepague-titulo{
+    width: 209px;
+    height: 47px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.container-pescaesportiva-conteudo{
+    width: 209px;
+    height: 341px;
+}
+
+.container-pesqueepague-conteudo{
+    width: 209px;
+    height: 347px;
+}
+
+.container-pescaesportiva-conteudo img{
+    width: 109.31px;
+    height: 125px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-pesqueepague-conteudo img{
+    width: 180.42px;
+    height: 83.56px;
+    margin-top: 39.8px;
+    margin-bottom: 32.44px;
+}
+
+.container-pescaesportiva-conteudo p{
+    width: 152px;
+    height: 128px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.container-pesqueepague-conteudo p{
+    width: 150px;
+    height: 168.84px;
+    font-size: 10px;
+    line-height: 12px;
+}
+}
