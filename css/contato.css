@@ -24,16 +24,116 @@
 .container-conteudo-venhasabermais{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .venhasabermais-mapa{
     width: 460px;
     height: 278px;
+    margin-right: 40px;
 }
 
 .container-informacoes-venhasabermais{
     display: flex;
     flex-direction: column;
+}
+
+.container-informacoes-venhasabermais p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--paragrafoMenor-font-size);
+    line-height: 17px;
+}
+
+.container-informacoes-venhasabermais img{
+    width: 26px;
+    height: 26px;
+    margin-right: 13px;
+}
+
+.venhasabermais-telefone, .venhasabermais-whatsapp, .venhasabermais-email, .venhasabermais-endereco, .venhasabermais-horario, .venhasabermais-insta, .venhasabermais-facebook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.venhasabermais-telefone, .venhasabermais-whatsapp, .venhasabermais-email, .venhasabermais-endereco, .venhasabermais-horario, .venhasabermais-insta{
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1050px){
+.container-venhasabermais{
+    height: 375px;
+    top: 164px;
+}
+
+.container-titulo-venhasabermais{
+
+    padding-bottom: 33px;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--corSangue);
+}
+
+.venhasabermais-mapa{
+    width: 322px;
+    height: 195px;
+    margin-right: 35px;
+}
+
+.container-informacoes-venhasabermais p{
+    font-size: 13;
+    line-height: 15px;
+}
+
+.container-informacoes-venhasabermais img{
+    width: 17.86px;
+    height: 17.86px;
+    margin-right: 13.14px;
+}
+
+.venhasabermais-telefone, .venhasabermais-whatsapp, .venhasabermais-email, .venhasabermais-endereco, .venhasabermais-horario, .venhasabermais-insta{
+    margin-bottom: 10.5px;
+}
+
+}
+
+@media (max-width: 768px){
+
+.container-venhasabermais{
+    height: 450px;
+    top: 108px;
+}
+
+.container-titulo-venhasabermais{
+    padding-top: 32px;
+    padding-bottom: 39px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.container-conteudo-venhasabermais{
+    flex-direction: column;
+}
+
+.venhasabermais-mapa{
+    width: 220px;
+    height: 133px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+}
+
+.container-informacoes-venhasabermais p{
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.container-informacoes-venhasabermais img{
+    width: 14.09px;
+    height: 14.09px;
+}
+
 }
 /*========================== FIM = Venha saber mais  ==========================*/
 
