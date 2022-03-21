@@ -1,5 +1,40 @@
 /*========================== INICIO = Venha saber mais  ==========================*/
+.container-venhasabermais{
+    position: relative;
+    height: 476px;
+    top: 177px;
+    margin: auto;
+    background-color: var(--corBranco);
+    display: flex;
+    flex-direction: column;
+}
 
+.container-titulo-venhasabermais{
+    text-align: center;
+    padding-top: 57px;
+    padding-bottom: 48px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--subtituloSecao-font-size);
+    line-height: 36px;
+    color: var(--corSangue);
+}
+
+.container-conteudo-venhasabermais{
+    display: flex;
+    justify-content: center;
+}
+
+.venhasabermais-mapa{
+    width: 460px;
+    height: 278px;
+}
+
+.container-informacoes-venhasabermais{
+    display: flex;
+    flex-direction: column;
+}
 /*========================== FIM = Venha saber mais  ==========================*/
 
 
