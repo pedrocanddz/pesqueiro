@@ -5,12 +5,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pesqueiro Brasa Parque</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
+  <!-- <div style="height: 500px;"></div>-->
+  <div class ="banner_home_principal" id="bannerPrincipal">
+    <div id="setinhaEsquerda" onclick="bannerCarrosel(1)"></div>
+    
+    <div class="banner_elements" id="banElements">
+
+      <div class="banner_home_primeiro">
+        <h1>Pescaria de qualidade você encontra no <span class="banner_home_primeiro_colorido">Brasa Parque Pesqueiro!</span></h1>
+      </div>
+
+      <div class="banner_home_segundo">
+        <h1>Venha conhecer a parte <span class="banner_home_segundo_colorido">gastronômica</span> do nosso pesqueiro!</h1>
+      </div>
+
+      <div class="banner_home_terceiro">
+        <h1>Temos estrutura para realizar os melhores <span class="banner_home_terceiro_colorido">eventos!</span></h1>
+      </div>       
+    </div>
+    <div id="setinhaDireita" onclick="bannerCarrosel(0)"></div>
+
+    <div class="banner_home_menu">
+        <span class="banner_nav_ponto"></span>
+        <span class="banner_nav_ponto"></span>
+        <span class="banner_nav_ponto"></span>
+    </div>
+  </div>
+  
+  <!------Início Home - Descrição mais fotos-->
+  <section class="desc_fotos_container">
+    <div class="desc_container">
+      <div class="descricao">
+        O lugar certo para curtir a tranquilidade da natureza com entretenimento para
+        as crianças e os adultos, gastronomia, pesca e diversão.
+      </div>
+    </div>
+    <div class="desc_down">
+
+      <p>Brasa Parque Pesqueiro, o melhor lugar para você aproveitar a vida!</p>
+      <div class="fotos_container">
+        <div class="imagem1 imagem"></div>
+        <div class="imagem2 imagem"></div>
+        <div class="imagem3 imagem"></div>
+        <div class="imagem4 imagem"></div>
+        <div class="imagem5 imagem"></div>
+        <div class="imagem6 imagem"></div>
+      </div>
+    </div>
+  </section>
+  
   <div class="container-geral">
     <div class="container-visita">
         
@@ -47,6 +96,38 @@
       </div>
     </div>  
   </div>
+  
+  <!----- Início Home - Seja nosso parceiro --->
+  <div class="container_seja_nosso_parceiro">
+    <div class="seja_nosso_parceiro">
+      <div class="text_seja_nosso_parceiro">
+        <div>
+          <h3>Seja nosso parceiro!</h3>
+        </div>
+        <div>Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit. Donec suscipit neque id malesuada vulputate. 
+          Nunc elementum accumsan varius.
+        </div>
+      </div>
+      <div class="contato_parceria">
+        <img src="../Imagens/Página 01 _Home_/iconeHome5.png" width="48px" alt="logo_whatsapp"> <!--Aqui vai o botao do whatsapp depois-->
+        <div>
+          entre em contato
+        </div> 
+      </div>
+    </div>
+    <div class="imagem_parceiro">
+      
+    </div>
+  </div> 
+    <!----- FIM Home - Seja nosso parceiro --->
+
+<script  src="script.js"></script>
 </body>
 
 </html>
+
+
+
+
+
