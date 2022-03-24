@@ -27,3 +27,20 @@
     
     --font-family: "Rubik", "Verdana", "Arial";
 }
+
+.container-botao-whatsapp {
+    position: relative;
+}
+
+#botao-whatsapp{
+    background-color: transparent;
+    position: absolute;
+    /* bottom: 20px; */
+    transform: translateY(-50px);
+    left: 33px;
+}
+
+#botao-whatsapp img{
+    width: 40px;
+    height: 40px;
+}

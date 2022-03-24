@@ -1,5 +1,4 @@
 .container-geral{
-    position: absolute;
     width: 100%;
     height: 814px;
     background: var(--corBranco);
@@ -96,7 +95,6 @@
 
 .container-geral{
     height: 749px;
-    top: 1213px;
 }
 
 .titulo-container{
@@ -270,8 +268,18 @@
 
 .contato_parceria { 
     display: flex;
-    align-items: center       ;
+    align-items: center;
+    position: relative;
 }
+
+.contato_parceria > #botao-whatsapp {
+    position: relative;
+    left: 0;
+    padding: 0;
+    margin-right: 10px;
+    transform: none!important;
+}
+
 .contato_parceria div {
     text-align: center;
     background-color: var(--corBranco);
@@ -280,6 +288,7 @@
     font-size: var(--textoBotao-font-size);
     padding: 2% 8%;
 }
+
 .text_seja_nosso_parceiro{
     height: 70%;
     display: flex;
