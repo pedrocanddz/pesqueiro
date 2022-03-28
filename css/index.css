@@ -14,8 +14,8 @@
 }
 
 #logotipo img{
-    max-width: 200px;
-    max-height: 150px;
+    max-width: 150px;
+    max-height: 100px;
     padding: 10px 50px;
 }
 
@@ -72,12 +72,6 @@
         
     }
 
-    #menu_list li a:hover {
-        background-color: none;
-        box-sizing: border-box;
-        border: 5px blueviolet;
-    }
-
     #logotipo img {
         display: none;
     }
@@ -92,11 +86,11 @@
     }
     #btn_mobile span{
         content: '';
-        width: 60px;
-        height: 6px;
+        width: 40px;
+        height: 4px;
         background-color: var(--corCinzaClaro);
         border-radius: 3px;
-        margin-top: 10px;
+        margin-top: 8px;
         margin-right: 60px;
     }
     #navegacao {
@@ -105,7 +99,7 @@
 
     #logotipo img{
         display: block;
-        max-width: 150px;
+        max-width: 80px;
     }
     #btn_mobile span {
         margin-right: 10px;
@@ -125,11 +119,12 @@
         font-size: 8px;
     }
     #logotipo img{
-        max-width: 100px;
+        max-width: 50px;
         padding-left: 20px;
     }
 
     #btn_mobile span {
-        margin-right: 10px;
+        margin-top: 5px;
+        width: 30px;
     }
 }
