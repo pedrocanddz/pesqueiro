@@ -55,14 +55,15 @@
     </div>
     <div class="forms">
       <p>Formulário de Reserva</p>
-    <form action="https://formspree.io/f/xlezwrev" method="POST">
+    <form action="https://formspree.io/f/xlezwrev" method="POST"> <!---Precisa trocar o link do formspree em uma conta criada com o email do cliente-->
         <input type="text" name="Nome" id="nome" placeholder="Nome*" required>
         <input type="email" name="Email" id="email" placeholder="Email*" required>
       <div class="data">
-        <input type="text" name="Data do evento" id="data" placeholder="Data do evento*" required>
+        <!-- <input type="text" onfocus="empty" name="Data do evento"  id="today" placeholder="Data do evento*" required> -->
+        <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Data do evento*" id="today" required/>
         <input type="number" name="Número de pessoas" id="pessoas" placeholder="Número de pessoas*" required>
       </div>
-        <input type="tel" name="Telefone" id="telefone" placeholder="Telefone*" class="Asterisk" required>
+        <input type="tel" name="Telefone" id="telefone" placeholder="Telefone*" maxlength="12" class="Asterisk" required>
         <textarea name="Mensagem" id="mensagem" cols="10" rows="10" placeholder="Mensagem:"></textarea>
       <div class="botao_div">
         <button type="submit" class="botao">Enviar</button>
