@@ -1,9 +1,3 @@
-const mobile = document.getElementById('btn_mobile');
-function Menu() {
-    const nav = document.getElementById('menu');
-    nav.classList.toggle('active');
-}
-mobile.addEventListener('click', Menu);
 const banners = document.getElementById("banElements");
 const banner = document.querySelectorAll("#banElements div");
 const setaEsq = document.getElementById("setinhaEsquerda");

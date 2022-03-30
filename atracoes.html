@@ -46,6 +46,59 @@
 
 
     <!-------------------------- INICIO - Salão de festas  -------------------------->
+    <section class="salao_container">
+      <div class="up_salao_container">
+        <div>
+          <h1>Salão de festas</h1>
+        </div>
+        <div class="intro_salao">
+          <p> O Brasa Parque Pesqueiro conta com um espaço de eventos, são 1.800 m2, com toda infraestrutura para
+            uma festa perfeita, o salão amplo e arejado tem palco para receber atrações e shows, sistema de
+            climatização, camarotes,
+            além de uma cozinha completa com churrasqueira. Tudo preparado para receber os convidados em uma
+            festa familiar, casamento, aniversários ou mesmo eventos corporativos.
+          </p>
+        </div>
+        <ul class="carrossel_salao" data-slide="salon">
+          <li>
+            <img src="./Imagens/Página 04 _Atrações_/salão/salao1.jpg" alt="">
+          </li>
+          <li>
+            <img src="./Imagens/Página 04 _Atrações_/salão/salao2.jpg" alt="">
+          </li>
+          <li>
+            <img src="./Imagens/Página 04 _Atrações_/salão/salao3.jpg" alt="">
+          </li>
+          <li>
+            <img src="./Imagens/Página 04 _Atrações_/salão/salao4.jpg" alt="">
+          </li>
+          <li>
+            <img src="./Imagens/Página 04 _Atrações_/salão/salao5.jpg" alt="">
+          </li>
+        </ul>
+
+      </div>
+      <div class="forms">
+        <p>Formulário de Reserva</p>
+        <form action="https://formspree.io/f/xlezwrev" method="POST">
+          <!---Precisa trocar o link do formspree em uma conta criada com o email do cliente-->
+          <input type="text" name="Nome" id="nome" placeholder="Nome*" required>
+          <input type="email" name="Email" id="email" placeholder="Email*" required>
+          <div class="data">
+            <input type="text" name="Data do evento" onfocus="(this.type='date')" onblur="(this.type='text')"
+              placeholder="Data do evento*" id="today" required />
+            <input type="number" name="Número de pessoas" id="pessoas" placeholder="Número de pessoas*" required>
+          </div>
+          <input type="tel" name="Telefone" id="telefone" placeholder="Telefone*" maxlength="12" class="Asterisk"
+            required>
+          <textarea name="Mensagem" id="mensagem" cols="10" rows="10" placeholder="Mensagem:"></textarea>
+          <div class="botao_div">
+            <button type="submit" class="botao">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-------------------------- FIM - Salão de festas  -------------------------->
 
     <!-------------------------- FIM - Salão de festas  -------------------------->
 
@@ -59,6 +112,9 @@
       </a>
     </div>
   </div>
+  <script src="js/simple-slide.js"></script>
+  <script src="js/atracoes.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
