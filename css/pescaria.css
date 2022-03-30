@@ -138,7 +138,7 @@
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 700;
-    font-size: var(--subtituloSecao-font-size);
+    font-size: 20px;
     line-height: 36px;
     color: var(--corBranco);
 }
@@ -285,8 +285,9 @@
 .container-pescaesportiva-titulo, .container-pesqueepague-titulo{
     width: 209px;
     height: 47px;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 19px;
+    text-align: center;
 }
 
 .container-pescaesportiva-conteudo{
@@ -314,14 +315,14 @@
 }
 
 .container-pescaesportiva-conteudo p{
-    width: 152px;
+    width: 165px;
     height: 128px;
     font-size: 10px;
     line-height: 12px;
 }
 
 .container-pesqueepague-conteudo p{
-    width: 150px;
+    width: 165px;
     height: 168.84px;
     font-size: 10px;
     line-height: 12px;
