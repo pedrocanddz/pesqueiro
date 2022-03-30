@@ -10,7 +10,7 @@
 }
 
 .titulo-container h2{
-    font-family: Rubik;
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: var(--tituloSecao-font-weight);
     font-size: var(--tituloSecao-font-size);
@@ -69,7 +69,7 @@
     padding-top: 1.92px;
 }
 .titulo{
-    font-family: Rubik;
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: var(--tituloItem-font-weight);
     font-size: var(--tituloItem-font-size);
@@ -79,7 +79,7 @@
 }
 
 .paragrafo{
-    font-family: Rubik;
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: normal;
     font-size: var(--paragrafo-font-size);
@@ -234,7 +234,7 @@
 
 /* Início - Seja nosso parceiro */
 .container_seja_nosso_parceiro{
-    font-family: Rubik;
+    font-family: var(--font-family);
     width: 100%;
     background-color: var(--corSangue);
     height: 306px;
@@ -548,15 +548,15 @@
     background-size:cover;
     background-position: 0% 50%;
     background-repeat: no-repeat;
-    border-top: 20px solid var(--corVerde);
-    border-bottom: 20px solid var(--corVerde);
+    border-top: 16px solid var(--corVerde);
+    border-bottom: 16px solid var(--corVerde);
 }
 
 .banner_home_primeiro h1 {
     padding-left: 25%;
     padding-right: 25%;
     margin: 0 auto;
-    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-style: var(--tituloBanner);
     font-weight: 500;
     font-size: 54px;
@@ -591,6 +591,8 @@
     .banner_home_primeiro {
         background-position: 0% 65%;
         height: 305px;
+        border-top: 10px solid var(--corVerde);
+        border-bottom: 10px solid var(--corVerde);
     }
 
     .banner_home_primeiro h1 {
@@ -612,15 +614,15 @@
     background-size:cover;
     background-position: 0% 50%;
     background-repeat: no-repeat;
-    border-top: 20px solid var(--corVerde);
-    border-bottom: 20px solid var(--corVerde);
+    border-top: 16px solid var(--corVerde);
+    border-bottom: 16px solid var(--corVerde);
 }
 
 .banner_home_segundo h1 {
     padding-left: 25%;
     padding-right: 25%;
     margin: 0 auto;
-    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-style: var(--tituloBanner);
     font-weight: 500;
     font-size: 54px;
@@ -655,6 +657,8 @@
     .banner_home_segundo {
         background-position: 0% 65%;
         height: 305px;
+        border-top: 10px solid var(--corVerde);
+        border-bottom: 10px solid var(--corVerde);
     }
 
     .banner_home_segundo h1 {
@@ -676,15 +680,15 @@
     background-size:cover;
     background-position: 0% 50%;
     background-repeat: no-repeat;
-    border-top: 20px solid var(--corVerde);
-    border-bottom: 20px solid var(--corVerde);
+    border-top: 16px solid var(--corVerde);
+    border-bottom: 16px solid var(--corVerde);
 }
 
 .banner_home_terceiro h1 {
     padding-left: 25%;
     padding-right: 25%;
     margin: 0 auto;
-    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-style: var(--tituloBanner);
     font-weight: 500;
     font-size: 54px;
@@ -719,6 +723,8 @@
     .banner_home_terceiro {
         background-position: 0% 65%;
         height: 305px;
+        border-top: 10px solid var(--corVerde);
+        border-bottom: 10px solid var(--corVerde);
     }
 
     .banner_home_terceiro h1 {

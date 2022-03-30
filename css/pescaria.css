@@ -8,15 +8,15 @@
     background-size:cover;
     background-position: 0% 50%;
     background-repeat: no-repeat;
-    border-top: 20px solid var(--corVerde);
-    border-bottom: 20px solid var(--corVerde);
+    border-top: 16px solid var(--corVerde);
+    border-bottom: 16px solid var(--corVerde);
 }
 
 .banner_pescaria h1 {
     padding-left: 12%;
     padding-right: 12%;
     margin: 0 auto;
-    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-style: var(--tituloBanner);
     font-weight: 500;
     font-size: 54px;
@@ -68,6 +68,8 @@
     .banner_pescaria {
         background-position: 0% 65%;
         height: 305px;
+        border-top: 10px solid var(--corVerde);
+        border-bottom: 10px solid var(--corVerde);
     }
 
     .banner_pescaria h1 {
@@ -93,7 +95,7 @@
 /*========================== INICIO = Modalidades  ==========================*/
 .container-modalidade{
     position: relative;
-    height: 910px;
+    height: 0px;
     margin: auto;
     background-color: var(--corBranco);
     display: flex;
@@ -104,7 +106,7 @@
     text-align: center;
     padding-top: 50px;
     padding-bottom: 45px;
-    font-family: 'Rubik';
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 700;
     font-size: var(--tituloSecao-font-size);
@@ -133,7 +135,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Rubik';
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 700;
     font-size: var(--subtituloSecao-font-size);
@@ -169,7 +171,7 @@
 .container-pescaesportiva-conteudo p, .container-pesqueepague-conteudo p{
     width: 334.47px;
     height: 196.91px;
-    font-family: 'Rubik';
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
     font-size: var(--paragrafo-font-size);
@@ -186,7 +188,7 @@
 @media (max-width: 1050px){
 .container-modalidade{
     height: 1097px;
-    top: 584px;
+    top: 0px;
 }
 
 .container-titulo-modalidade{
@@ -264,7 +266,7 @@
 .container-modalidade{
     position: relative;
     height: 981px;
-    top: 353px;
+    top: 0px;
 }
 
 .container-titulo-modalidade{

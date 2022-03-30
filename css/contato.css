@@ -1,8 +1,13 @@
 /*========================== INICIO = Venha saber mais  ==========================*/
+.divisoria{
+    height: 16px;
+    width: 100%;
+    background-color: var(--corVerde);
+}
 .container-venhasabermais{
     position: relative;
     height: 476px;
-    top: 177px;
+    top: 0px;
     margin: auto;
     background-color: var(--corBranco);
     display: flex;
@@ -13,7 +18,7 @@
     text-align: center;
     padding-top: 57px;
     padding-bottom: 48px;
-    font-family: 'Rubik';
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 700;
     font-size: var(--subtituloSecao-font-size);
@@ -39,7 +44,7 @@
 }
 
 .container-informacoes-venhasabermais p{
-    font-family: 'Rubik';
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
     font-size: var(--paragrafoMenor-font-size);
@@ -65,7 +70,7 @@
 @media (max-width: 1050px){
 .container-venhasabermais{
     height: 375px;
-    top: 164px;
+    top: 0px;
 }
 
 .container-titulo-venhasabermais{
@@ -100,10 +105,13 @@
 }
 
 @media (max-width: 768px){
+.divisoria{
+    height: 10px;
+}
 
 .container-venhasabermais{
     height: 450px;
-    top: 108px;
+    top: 0px;
 }
 
 .container-titulo-venhasabermais{

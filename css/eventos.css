@@ -8,15 +8,15 @@
     background-size:cover;
     background-position: 0% 50%;
     background-repeat: no-repeat;
-    border-top: 20px solid var(--corVerde);
-    border-bottom: 20px solid var(--corVerde);
+    border-top: 16px solid var(--corVerde);
+    border-bottom: 16px solid var(--corVerde);
 }
 
 .banner_eventos h1 {
     padding-left: 12%;
     padding-right: 12%;
     margin: 0 auto;
-    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-style: var(--tituloBanner);
     font-weight: 500;
     font-size: 54px;
@@ -70,6 +70,8 @@
     .banner_eventos {
         background-position: 0% 65%;
         height: 305px;
+        border-top: 10px solid var(--corVerde);
+        border-bottom: 10px solid var(--corVerde);
     }
 
     .banner_eventos h1 {

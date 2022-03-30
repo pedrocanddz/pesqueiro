@@ -58,6 +58,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    height: 128px;
 }
 
 #logotipo img{
@@ -72,7 +73,8 @@
 }
 
 #menu_list li {
-    padding: 100px 10px;  
+    padding-left:10px;
+    padding-right: 10px;
 }
 
 #menu_list li a {
