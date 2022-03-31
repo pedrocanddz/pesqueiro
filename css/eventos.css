@@ -98,5 +98,198 @@
 
 
 /*========================== INICIO = Eventos realizados ==========================*/
+.eventos_realizados{
+    width: 100%;
+    height: 2045px;
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.eventos_realizados h3{
+    font-size: var(--tituloSecao-font-size);
+    font-weight: var(--tituloSecao-font-weight);
+    color: #494949;
+}
+.subtitulo{
+    font-size: var(--paragrafo-font-size);
+    font-weight: 400;
+    width: 75%;
+    text-align: center;
+}
+.backgroundimg{
+    width: 650px;
+    height: 322px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav_1 .img_1{
+    background-image: url("../Imagens/Página 03 _Eventos_/Remember/remember1.jpeg"); 
+}
+.nav_1 .img_2{
+    background-image: url("../Imagens/Página 03 _Eventos_/Remember/remember2.jpeg"); 
+}
+.nav_1 .img_3{
+    background-image: url("../Imagens/Página 03 _Eventos_/Remember/remember3.jpeg"); 
+}
+.nav_1 .img_4{
+    background-image: url("../Imagens/Página 03 _Eventos_/Remember/remember4.jpeg"); 
+}
+.nav_2 .img_1{
+    background-image: url("../Imagens/Página 03 _Eventos_/Noite Árabe/arabe1.jpeg");
+}
+.nav_2 .img_2{
+    background-image: url("../Imagens/Página 03 _Eventos_/Noite Árabe/arabe2.jpeg");
+}
+.nav_2 .img_3{
+    background-image: url("../Imagens/Página 03 _Eventos_/Noite Árabe/arabe3.jpeg");
+}
+.nav_3 .img_1{
+    background-image: url("../Imagens/Página\ 03\ _Eventos_/Costela fogo de chão/costela1.jpeg");
+}
+.nav_3 .img_2{
+    background-image: url("../Imagens/Página\ 03\ _Eventos_/Costela fogo de chão/costela2.jpeg");
+}
+.nav_3 .img_3{
+    background-image: url("../Imagens/Página\ 03\ _Eventos_/Costela fogo de chão/costela3.jpeg");
+}
+.nav_4 .img_1{
+    background-image: url("../Imagens/Página\ 03\ _Eventos_/Buteco dos amigos/buteco1.jpg");
+}
+.nav_4 .img_2{
+    background-image: url("../Imagens/Página\ 03\ _Eventos_/Buteco dos amigos/buteco2.jpg");
+}
+.nav_4 .img_3{
+    background-image: url("../Imagens/Página\ 03\ _Eventos_/Buteco dos amigos/buteco3.jpg");
+}
+.container_slides{
+    width: 100%;
+    text-align: center;
+}
+.carrossel_eventos{
+    background-color: var(--corLaranja);
+    width: 100%;
+}
 
+.carrossel_eventos_2{
+    background-color: var(--corSangue);
+    width: 100%;
+}
+.carrossel_eventos_3{
+    background-color: var(--corCinzaClaro);
+    width: 100%;
+}
+.carrossel_eventos_4{
+    background-color: var(--corVerde);
+    width: 100%;
+}
+.slides{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+[data-slide] {
+    position: relative;
+}
+
+[data-slide] > * {
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+[data-slide] > .active{
+    position: relative;
+    display: inline-block;
+    transition: display 500ms;
+}
+[data-slide-nav] {
+    display: block;
+    text-align: center;
+}
+[data-slide-nav] button {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 4px;
+    border: none;
+    border-radius: 6px;
+    color: var(--corCinzaClaro);
+    font-size: 1px;
+}
+
+.nav_1 [data-slide-nav] .active {
+    background-color: var(--corLaranja);
+    color: var(--corLaranja);
+}
+.nav_2 [data-slide-nav] .active{
+    background-color: var(--corSangue);
+    color: var(--corSangue);
+}
+.nav_3 [data-slide-nav] .active{
+    background-color: var(--corCinzaClaro);
+    color: var(--corCinzaClaro);
+}
+.nav_4 [data-slide-nav] .active{
+    background-color: var(--corVerde);
+    color: var(--corVerde);
+}
+.event{
+    font-size: var(--tituloItem-font-size);
+    font-weight: var(--tituloItem-font-weight);
+    padding-bottom: 10px;
+}
+.event_1{
+    color: var(--corLaranja);
+}
+.event_2{
+    color: var(--corSangue);
+}
+.event_3{
+    color: var(--corPreto);
+}
+.event_4{
+    color: var(--corVerde);
+}
+
+@media(max-width: 768px){
+    .eventos_realizados{
+        height:  1950px;
+        justify-content: space-around;
+        
+    }
+}
+@media(max-width: 650px){
+    .backgroundimg{
+        width: 375px;
+        height: 200px;
+    }
+}
+@media(max-width: 368px){
+    .eventos_realizados{
+        height: 803px;
+    }
+    
+    .backgroundimg{
+        width: 274px;
+        height: 106px;
+        background-size: cover;
+        background-position: center;
+    }
+    .eventos_realizados h3{
+        font-size: 18px;
+    }
+    .subtitulo{
+        font-size: 10px;
+        width: 90%;
+    }
+    .event{
+        font-size: 12px;
+    }
+    [data-slide-nav] button {
+        width: 6px;
+        height: 6px;
+    }
+}
 /*========================== FIM = Eventos realizados ==========================*/
