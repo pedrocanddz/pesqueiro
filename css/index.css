@@ -91,7 +91,7 @@
 
 
 
-@media (max-width: 1050px){
+@media (max-width: 960px){
 
 .container-geral{
     height: 749px;
@@ -156,7 +156,7 @@
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 720px){
     .container-geral{
         height: 526px;
         top: 727px;
@@ -295,7 +295,7 @@
     flex-direction: column;
     justify-content: space-around;
 }
-@media (max-width: 768px){
+@media (max-width: 960px){
     .container_seja_nosso_parceiro{
         height: 278px;
     }
@@ -320,7 +320,7 @@
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 720px){
     .container_seja_nosso_parceiro{
         height: 229px;
     }
@@ -424,7 +424,7 @@
     background-image: url("../Imagens/Página 01 _Home_/peixe6.jpeg");
 }
 
-@media  (max-width: 768px){
+@media  (max-width: 960px){
     .desc_fotos_container{
         height: 757px;
     }
@@ -436,7 +436,7 @@
         padding: 5% 15%;
     }
 }
-@media (max-width : 480px){
+@media (max-width : 720px){
     .descricao{
         font-size: 10px;
     }

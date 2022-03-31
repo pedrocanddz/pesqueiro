@@ -185,7 +185,7 @@
 
 /*========================== FIM = Tanques + Regras + Faixa Venha nos conhecer  ==========================*/
 
-@media (max-width: 1050px){
+@media (max-width: 960px){
 .container-modalidade{
     height: 1097px;
     top: 0px;
@@ -262,7 +262,7 @@
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 720px){
 .container-modalidade{
     position: relative;
     height: 981px;
