@@ -202,7 +202,6 @@
 [data-slide] > .active{
     position: relative;
     display: inline-block;
-    transition: display 500ms;
 }
 [data-slide-nav] {
     display: block;
@@ -223,17 +222,29 @@
     background-color: var(--corLaranja);
     color: var(--corLaranja);
 }
+.nav_1 button:hover{
+    background-color: var(--corLaranja);
+}
 .nav_2 [data-slide-nav] .active{
     background-color: var(--corSangue);
     color: var(--corSangue);
 }
+.nav_2 button:hover{
+    background-color: var(--corSangue);
+}
 .nav_3 [data-slide-nav] .active{
-    background-color: var(--corCinzaClaro);
+    background-color: var(--corPreto);
     color: var(--corCinzaClaro);
+}
+.nav_3 button:hover{
+    background-color: var(--corPreto);
 }
 .nav_4 [data-slide-nav] .active{
     background-color: var(--corVerde);
     color: var(--corVerde);
+}
+.nav_4 button:hover{
+    background-color: var(--corVerde);
 }
 .event{
     font-size: var(--tituloItem-font-size);
