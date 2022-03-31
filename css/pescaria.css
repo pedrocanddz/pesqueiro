@@ -54,7 +54,7 @@
         padding-right: 6%;
         font-size: var(--tituloBanner-font-size);
         line-height: 48px;
-        padding-bottom: 8%;
+        padding-bottom: 0px;
     }
 
     .banner_pescaria_descricao {
@@ -67,7 +67,7 @@
 @media (max-width: 720px) {
     .banner_pescaria {
         background-position: 0% 65%;
-        height: 305px;
+        height: 200px;
         border-top: 10px solid var(--corVerde);
         border-bottom: 10px solid var(--corVerde);
     }
@@ -75,7 +75,7 @@
     .banner_pescaria h1 {
         font-size: 30px;
         line-height: 38px;
-        padding-bottom: 8%;
+        padding-bottom: 0px;
     }
 
     .banner_pescaria_descricao {
